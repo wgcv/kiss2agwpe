@@ -4,6 +4,9 @@ A lightweight Python bridge that translates between KISS TNCs and the AGWPE prot
 
 This allows software that expects an AGWPE-compatible packet engine to work with KISS devices, making it possible to use applications such as PAT Winlink on macOS without requiring a native AX.25 stack.
 
+## Usage:
+    `python3 kiss2agwpe.py [--kiss-host HOST] [--kiss-port PORT] [--agwpe-port PORT] [--debug]`
+ 
 ## Features
 KISS-to-AGWPE protocol translation
 Compatible with serial and TCP KISS TNCs
